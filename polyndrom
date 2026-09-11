@@ -1,0 +1,9 @@
+n = {'chinna', 'ramana', 'wow', 'noon'}
+
+for i in n:
+    r = i[::-1]
+
+    if i == r:
+        print("polindrome",i)
+    else:
+        print('not polindrome',i)
